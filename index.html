@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Samira Jaan ❤️ Valentine Ultra</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<audio id="bgm" src="m.mp3" autoplay loop></audio>
+
+<div id="petals"></div>
+<div id="confetti"></div>
+
+<div id="app">
+
+<section class="screen active">
+<h1>Happy Valentine Samira Jaan ❤️</h1>
+<p>
+I miss you in the silence between my breaths,<br>
+Every heartbeat whispers your name,<br>
+You are the part of my soul that feels incomplete without you.
+</p>
+<button onclick="nextScreen()">Enter My Heart 💖</button>
+</section>
+
+<section class="screen">
+<h2>Our Beautiful Memories 🌹</h2>
+<img id="slide" src="a.jpg">
+<button onclick="nextScreen()">Next ❤️</button>
+</section>
+
+<section class="screen">
+<h2>Our Special Moment 🎥</h2>
+<video width="90%" controls autoplay loop>
+<source src="v.mp4" type="video/mp4">
+</video>
+<button onclick="nextScreen()">Next 💖</button>
+</section>
+
+<section class="screen">
+<h2>Final Stage 💍</h2>
+<h1>Samira Jaan...</h1>
+<h2>Will You Be My Valentine? ❤️</h2>
+<button onclick="celebrate()">YES FOREVER ♾️</button>
+<p id="finalMsg"></p>
+</section>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

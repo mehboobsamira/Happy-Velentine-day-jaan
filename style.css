@@ -1,0 +1,45 @@
+body{
+margin:0;
+font-family:Arial;
+background:linear-gradient(#ff9eb5,#fff);
+text-align:center;
+overflow:hidden;
+}
+
+.screen{
+display:none;
+padding:20px;
+opacity:0;
+transition:all 0.8s ease;
+}
+
+.screen.active{
+display:block;
+opacity:1;
+}
+
+img, video{
+width:90%;
+max-width:400px;
+border-radius:15px;
+box-shadow:0 0 20px pink;
+}
+
+button{
+padding:10px 20px;
+margin:15px;
+border:none;
+border-radius:20px;
+background:#ff4f8b;
+color:white;
+}
+
+.petal{
+position:fixed;
+top:-10%;
+animation:fall 6s linear infinite;
+}
+
+@keyframes fall{
+to{top:110%;transform:rotate(360deg);}
+}
